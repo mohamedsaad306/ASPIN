@@ -1,0 +1,18 @@
+﻿body{margin:0;padding:0;}
+#bar{width: 100%;height: 55px;background-color: #283e4a;}
+#bar>div{display:inline-block;}
+#logotxt,.txtstyle{color:white;}
+#toolbar{width:100%;height:45px;background-color:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.05),0 2px 3px rgba(0,0,0,.2);}
+#centertools{width:50%;height:45px;margin:0 auto;}
+#postcover{width:100%;height:270px;background-color:#f3f6f8;margin-top:5px;}
+#closeimg{position:relative;padding-left:97%;display:none;cursor:pointer;}
+.posthead{font-size:40px;width:70%;border:none;overflow:auto;}
+.reset{text-decoration:none;color:black;}
+.reset:visited{color:blue;}
+
+
+
+
+
+
+

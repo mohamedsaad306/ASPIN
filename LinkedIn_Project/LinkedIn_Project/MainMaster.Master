@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="LinkedIn_Project.MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder runat="server" ID="cph_title"></asp:ContentPlaceHolder></title>
+    <link  rel="icon" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <style>
+        body{margin:0;padding:0;}
+        #mainbar{width:100%;height:50px;background-color:#686868;}
+        #menubar{width:100%;height:30px;background-color:#262626;display:none;/*position:absolute;z-index:8;*/}
+        .searchtxtstyle{width:25%;height:30px;}
+        #icons{width:40%;height:40px;float:right;margin-top:.5%;}
+        #icons>div{width:8%;height:40px;margin-left:3%;display:inline-block;float:left;}
+        .resize{font-size:30px;text-align:center;}
+        .resize2{font-size:25px;text-align:center;}
+        #menulist{list-style-type:none;}
+        #menulist:first-child{margin-left:10%;}
+
+        #menulist>li{display:inline-block;margin-left:2%;}
+        #menulist>li a{text-decoration:none;color:white;}
+        #menulist>li a:hover{color:blue;}
+        .ddlstyle{width:16%;height:80px;background-color:black;list-style-type:none;margin-left:18%;z-index:6;position:absolute;}
+        #ddl{display:none;}
+        #ddl li a{text-decoration:none;color:white;}
+        #ddl li a:hover{color:blue;}
+        .ddlresize{height:100px;margin-left:23%;display:inline-block;}
+        #ddl2{display:none;}
+        #ddl2 li a{text-decoration:none;color:white;}
+        #ddl2 li a:hover{color:blue;}
+
+        .ddlresize2{width:13%;margin-left:35%;}
+        #ddl3{display:none;}
+        #ddl3 li a{text-decoration:none;color:white;}
+        #ddl3 li a:hover{color:blue;}
+        #maincontent{z-index:5;}
+        .menubody{width:30%;height:250px;margin-left:57%;position:absolute;z-index:6;background-color:#333333;}
+        #header{width:100%;height:30px;color:white;padding-left:20px;}
+        .menuresize{width:95%;height:210px;background-color:#fff;margin:0 auto;}
+        .menuresize >div{width:100%;height:34.7px;border-bottom:1px solid #dcddde;cursor:pointer;}
+        .menuresize:last-child{border-bottom:none;}
+        .float-right{float:right;color:#376fa6;margin-right:5px;}
+        .color{color:#ccc;}
+        
+
+    </style>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section id="mainbar">
+            <img src="images/favicon.png" />
+            <%--<asp:Label ID="menuicon" runat="server" CssClass="glyphicon glyphicon-list menuiconstyle resize2 "></asp:Label>--%>
+            <asp:TextBox ID="searchtxt" runat="server" CssClass="searchtxtstyle" placeholder="search for people,jobs,companies,and more...."></asp:TextBox>
+            <%--<asp:Label ID="Label1" runat="server" CssClass="glyphicon glyphicon-search " ForeColor="black"></asp:Label>--%>
+            <div id="icons">
+                <div id="meg">
+                    <asp:Label ID="megicon" runat="server" CssClass="glyphicon glyphicon-"></asp:Label></div>
+                <div id="noti">
+                    <asp:Label ID="notiicon" runat="server" CssClass="glyphicon glyphicon-flag resize" ></asp:Label></div>
+                <div id="useradd">
+                    <asp:Label ID="useraddicon" runat="server" CssClass="glyphicon glyphicon-user-add"></asp:Label></div>
+                <div id="user">
+                    <asp:Label ID="usericon" runat="server" CssClass="glyphicon glyphicon-user resize2"></asp:Label></div>
+
+            </div>
+        </section>
+        <section id="menubar">
+            <ul id="menulist" >
+                <li ><a href="#" >Home</a></li>
+                <li ><a href="#" id="profiletab">Profile</a></li>
+                <li><a href="#" id="networkstab">My Network</a></li>
+                <li><a href="#" >Jobs</a></li>
+                <li><a href="#" id="intereststab">Interests</a></li>
+
+
+
+
+            </ul>
+        </section>
+        <section id="maincontent">
+            <ul class="ddlstyle" id="ddl">
+               <li class="item-style"><a href="#" class="linkreset" >Edit Profile</a></li>
+               <li class="item-style"><a href="#" class="linkreset">Who's viewed Your Profile</a></li>
+               <li class="item-style"><a href="#" class="linkreset">Your Updates</a></li>
+
+
+            </ul>
+            <ul class="ddlstyle ddlresize" id="ddl2">
+                <li class="item-style"><a href="#" class="linkreset" >Connectons</a></li>
+               <li class="item-style"><a href="#" class="linkreset">Add Contacts</a></li>
+               <li class="item-style"><a href="#" class="linkreset">people You May Know</a></li>
+               <li class="item-style"><a href="#" class="linkreset">Find Alumni</a></li>
+
+            </ul>
+            <ul class="ddlstyle ddlresize2" id="ddl3">
+                <li class="item-style"><a href="#" class="linkreset" >Campanies</a></li>
+               <li class="item-style"><a href="#" class="linkreset">Groups</a></li>
+               <li class="item-style"><a href="#" class="linkreset">SlideShare</a></li>
+               
+
+            </ul>
+            <section class=" menubody">
+                <section id="header">Account & Settings</section>
+                <div class=" menuresize">
+                    <div>
+                        <asp:Label runat="server" Text="fn+ln" ID="lbl_fullname"></asp:Label>
+                        <asp:Label runat="server" CssClass=""></asp:Label>
+                        <asp:Label runat="server" Text="Sign Out" CssClass="float-right"></asp:Label>
+                        
+
+
+                    </div>
+                    <div>
+                        <asp:Label runat="server" CssClass="fa fa-linkedin-square color"></asp:Label>
+                        <asp:Label runat="server" Text="Account : Basic"></asp:Label>
+                        <asp:Label runat="server" Text="Try premium" CssClass="float-right"></asp:Label>
+                    </div>
+                    <div>
+                        <asp:Label runat="server" CssClass="glyphicon glyphicon-briefcase color"></asp:Label>
+
+                        <asp:Label runat="server" Text="Job Posting"></asp:Label>
+                        
+                        <asp:Label runat="server" Text="Manage" CssClass="float-right"></asp:Label>
+                    </div>
+                    <div>
+                        
+                        <asp:Label runat="server" CssClass="glyphicon glyphicon-globe color"></asp:Label>
+                        <asp:Label runat="server" Text="Language"></asp:Label>
+                        <asp:Label runat="server" Text="Change" CssClass="float-right"></asp:Label>
+                    </div>
+                    <div>
+                        <asp:Label runat="server" CssClass="glyphicon glyphicon-lock color"></asp:Label>
+                        <asp:Label runat="server" Text="Privacy & Settings"></asp:Label>
+                        
+                        <asp:Label runat="server" Text="Manage" CssClass="float-right"></asp:Label>
+                    </div>
+                    <div>
+                        <asp:Label runat="server" CssClass="glyphicon glyphicon-question-sign color"></asp:Label>
+                        <asp:Label runat="server" Text="Help Center"></asp:Label>
+                        <asp:Label runat="server" Text="Get Help" CssClass="float-right"></asp:Label>
+                    </div>
+                    
+
+
+                </div>
+                <div id="test"></div>
+            </section>
+            <asp:ContentPlaceHolder ID="cph_content" runat="server"></asp:ContentPlaceHolder>
+        </section>
+    </form>
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#mainbar").hover(function () { $("#menubar").show(); });
+            
+
+
+            $("#notiicon").hover(function () { $("#noti").css("background-color", "black"); });
+            $("#notiicon").on("mouseout", function () { $("#noti").css("background-color", "#686868"); });
+
+            $("#profiletab").hover(function () { $("#profiletab").css("color", "white"); });
+            
+
+            $("#profiletab").hover(function () { $("#ddl").slideDown(); });
+            $("#maincontent").on("click", function () { $("#ddl").hide(); });
+
+            $("#networkstab").hover(function () { $("#networkstab").css("color", "white"); });
+            $("#networkstab").hover(function () { $("#ddl2").slideDown(); });
+            $("#networkstab").on("mouseout", function () { $("#ddl2").hide(); });
+
+
+            $("#intereststab").hover(function () { $("#intereststab").css("color", "white"); });
+            $("#intereststab").hover(function () { $("#ddl3").slideDown(); });
+            $("#intereststab").on("mouseout", function () { $("#ddl3").hide(); });
+
+            $(".menuresize > div").hover(function () { $(this).css("background-color", "#ebebed"); $(this).siblings().css("background-color", "#fff"); });
+            $(".menuresize ").on("mouseout", function () { $(".menuresize > div").css("background-color", "#fff"); });
+
+        });
+    </script>
+</body>
+</html>
