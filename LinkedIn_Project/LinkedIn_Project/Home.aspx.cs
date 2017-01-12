@@ -11,7 +11,10 @@ namespace LinkedIn_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+               // do some logic here 
+            }
         }
     }
 }

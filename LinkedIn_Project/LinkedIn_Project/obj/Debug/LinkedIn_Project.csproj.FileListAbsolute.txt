@@ -4,3 +4,9 @@ c:\users\asmaa.asmaa\documents\visual studio 2013\Projects\LinkedIn_Project\Link
 c:\users\asmaa.asmaa\documents\visual studio 2013\Projects\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.csprojResolveAssemblyReference.cache
 c:\users\asmaa.asmaa\documents\visual studio 2013\Projects\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.dll
 c:\users\asmaa.asmaa\documents\visual studio 2013\Projects\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.pdb
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.dll.config
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.dll
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.pdb
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.csprojResolveAssemblyReference.cache
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.dll
+C:\Users\Samar Samir\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.pdb
