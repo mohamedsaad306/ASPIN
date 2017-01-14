@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'E:\Intake 37 SharePoint and CRM\16- ASP NET\project\LinkedIn_Project\GitHub_Proj\ASPIN\LinkedIn_Project\LinkedIn_Project\DAL\Model.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\DAL\Model.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
