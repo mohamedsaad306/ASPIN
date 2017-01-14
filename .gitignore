@@ -232,3 +232,5 @@ LinkedIn_Project/LinkedIn_Project/bin/LinkedIn_Project.pdb
 *.sln
 *.suo
 LinkedIn_Project/LinkedIn_Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+LinkedIn_Project/LinkedIn_Project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache
