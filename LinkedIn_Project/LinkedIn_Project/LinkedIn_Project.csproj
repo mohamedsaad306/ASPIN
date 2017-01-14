@@ -82,6 +82,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\UserDetaiManager.cs" />
     <Compile Include="DAL\aspnet_Applications.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -344,7 +345,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
+    <Folder Include="Controls\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

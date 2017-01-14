@@ -20,3 +20,13 @@ E:\Intake 37 SharePoint and CRM\16- ASP NET\project\LinkedIn_Project\GitHub_Proj
 E:\Intake 37 SharePoint and CRM\16- ASP NET\project\LinkedIn_Project\GitHub_Proj\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.csprojResolveAssemblyReference.cache
 E:\Intake 37 SharePoint and CRM\16- ASP NET\project\LinkedIn_Project\GitHub_Proj\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.dll
 E:\Intake 37 SharePoint and CRM\16- ASP NET\project\LinkedIn_Project\GitHub_Proj\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.pdb
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.dll.config
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.dll
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\LinkedIn_Project.pdb
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\EntityFramework.dll
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\EntityFramework.xml
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.dll
+C:\Users\Mohamed\Documents\GitHub\ASPIN\LinkedIn_Project\LinkedIn_Project\obj\Debug\LinkedIn_Project.pdb
