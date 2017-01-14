@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="App_Themes\Theme1\poststyle.css" />
     <Content Include="App_Themes\Theme1\styles.css" />
+    <Content Include="Controls\ctrl_register.ascx" />
+    <Content Include="Controls\ctrl_usersList.ascx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
@@ -79,10 +81,26 @@
     <Content Include="js\plugins.js" />
     <Content Include="js\postplugin.js" />
     <Content Include="PostWriting.aspx" />
+    <Content Include="Presentation\Register.aspx" />
+    <Content Include="Presentation\Users.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\UserDetaiManager.cs" />
+    <Compile Include="Controls\ctrl_register.ascx.cs">
+      <DependentUpon>ctrl_register.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrl_register.ascx.designer.cs">
+      <DependentUpon>ctrl_register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrl_usersList.ascx.cs">
+      <DependentUpon>ctrl_usersList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrl_usersList.ascx.designer.cs">
+      <DependentUpon>ctrl_usersList.ascx</DependentUpon>
+    </Compile>
     <Compile Include="DAL\aspnet_Applications.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -308,6 +326,20 @@
     <Compile Include="PostWriting.aspx.designer.cs">
       <DependentUpon>PostWriting.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Presentation\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -344,9 +376,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controls\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

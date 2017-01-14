@@ -18,7 +18,7 @@ namespace LinkedIn_Project.BLL
             MyDBContext context= new MyDBContext ();
             return (UserDetail)context.UserDetails.Where(e => e.Fk_UserId == id);
         }
-        public static bool 
+        //public static bool 
 
     }
 }
