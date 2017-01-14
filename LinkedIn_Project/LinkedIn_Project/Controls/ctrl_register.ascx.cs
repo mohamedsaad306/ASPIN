@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using LinkedIn_Project.BLL;
 using System.Web.Security;
+using LinkedIn_Project.DAL;
 
 namespace LinkedIn_Project.Controls
 {
@@ -20,8 +21,9 @@ namespace LinkedIn_Project.Controls
         {
 
             Guid id =(Guid) Membership.GetUser((sender  as CreateUserWizard).UserName).ProviderUserKey ;
-            //UserDetaiManager ud= new
-            UserDetaiManager.Add(id, (sender as CreateUserWizard).UserName);   
+
+            UserDetail usr = new UserDetail { Fk_UserId = id, FirstName = (sender as CreateUserWizard).UserName }; 
+            UserDetaiManager.Add(usr);   
         }
     }
 }
