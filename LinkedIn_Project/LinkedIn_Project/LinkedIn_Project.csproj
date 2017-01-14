@@ -82,6 +82,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\OrganizationManager.cs" />
     <Compile Include="DAL\aspnet_Applications.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -136,6 +137,7 @@
     <Compile Include="DAL\Certification_Authority.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="DAL\Class1.cs" />
     <Compile Include="DAL\Course.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -343,9 +345,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
