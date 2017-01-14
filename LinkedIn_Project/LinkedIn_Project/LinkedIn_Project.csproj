@@ -70,6 +70,7 @@
     <Content Include="App_Themes\Theme1\poststyle.css" />
     <Content Include="App_Themes\Theme1\styles.css" />
     <Content Include="Controls\ctrl_register.ascx" />
+    <Content Include="Controls\ctrl_userDetail.ascx" />
     <Content Include="Controls\ctrl_usersList.ascx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -82,6 +83,7 @@
     <Content Include="js\postplugin.js" />
     <Content Include="PostWriting.aspx" />
     <Content Include="Presentation\Register.aspx" />
+    <Content Include="Presentation\UserDetail.aspx" />
     <Content Include="Presentation\Users.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -95,8 +97,16 @@
     <Compile Include="Controls\ctrl_register.ascx.designer.cs">
       <DependentUpon>ctrl_register.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\ctrl_userDetail.ascx.cs">
+      <DependentUpon>ctrl_userDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrl_userDetail.ascx.designer.cs">
+      <DependentUpon>ctrl_userDetail.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\ctrl_usersList.ascx.cs">
       <DependentUpon>ctrl_usersList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Controls\ctrl_usersList.ascx.designer.cs">
       <DependentUpon>ctrl_usersList.ascx</DependentUpon>
@@ -333,6 +343,13 @@
     </Compile>
     <Compile Include="Presentation\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\UserDetail.aspx.cs">
+      <DependentUpon>UserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\UserDetail.aspx.designer.cs">
+      <DependentUpon>UserDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Users.aspx.cs">
       <DependentUpon>Users.aspx</DependentUpon>

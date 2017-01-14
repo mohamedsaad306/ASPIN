@@ -15,8 +15,8 @@ namespace LinkedIn_Project.Controls
             if (!IsPostBack)
             {
                 //get all users to the grid 
-                gv_users.DataSource = UserDetaiManager.GetAllUsersDetails();
-                
+                gv_users.DataSource = UserDetaiManager.GetAll();
+         
                 gv_users.DataBind();
 
 
