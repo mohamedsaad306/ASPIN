@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="2103168821514aad80489f575f58083a" Name="Diagram1" ZoomLevel="113">
+      <Diagram DiagramId="2103168821514aad80489f575f58083a" Name="Diagram1" ZoomLevel="98">
         <EntityTypeShape EntityType="LinkedInDBModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="46.375" IsExpanded="true" />
         <EntityTypeShape EntityType="LinkedInDBModel.aspnet_Membership" Width="1.5" PointX="6" PointY="48" IsExpanded="true" />
         <EntityTypeShape EntityType="LinkedInDBModel.aspnet_Paths" Width="1.5" PointX="3" PointY="44.875" IsExpanded="true" />

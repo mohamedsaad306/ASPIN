@@ -13,12 +13,18 @@ namespace LinkedIn_Project.BLL
             MyDBContext ctx = new MyDBContext();
             return ctx.UserDetails.Where(u => u.IsDeleted==false).ToList();
         }
+
         public static UserDetail GetUserDetailByID(Guid id) 
         { 
             MyDBContext context= new MyDBContext ();
             return (UserDetail)context.UserDetails.Where(e => e.Fk_UserId == id);
         }
-        //public static bool 
+        public static UserDetail Add(Guid id , string name ) {
+            MyDBContext dbcontxt = new MyDBContext();
+            UserDetail user= dbcontxt.UserDetails.Add(new UserDetail { Fk_UserId = id,FirstName=name });
+            dbcontxt.SaveChanges();
+            return user;
+        }
 
     }
 }
