@@ -211,6 +211,7 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 LinkedIn_Project/LinkedIn_Project.v12.suo
+<<<<<<< HEAD
 *.suo
 LinkedIn_Project/LinkedIn_Project/bin/LinkedIn_Project.dll
 *.pdb
@@ -221,4 +222,12 @@ LinkedIn_Project/LinkedIn_Project/obj/Debug/DesignTimeResolveAssemblyReferencesI
 *.dll
 LinkedIn_Project/LinkedIn_Project/obj/Debug/LinkedIn_Project.dll
 *.dll
+=======
+LinkedIn_Project/LinkedIn_Project/obj/Debug/LinkedIn_Project.dll
+*.dll
+LinkedIn_Project/LinkedIn_Project/obj/Debug/LinkedIn_Project.dll
+LinkedIn_Project/LinkedIn_Project/bin/LinkedIn_Project.pdb
+>>>>>>> origin/master
 *.pdb
+*.sln
+*.suo
