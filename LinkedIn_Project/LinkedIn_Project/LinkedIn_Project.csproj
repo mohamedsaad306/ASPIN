@@ -70,6 +70,7 @@
     <Content Include="App_Themes\Theme1\poststyle.css" />
     <Content Include="App_Themes\Theme1\styles.css" />
     <Content Include="Controls\ctrl_register.ascx" />
+    <Content Include="Controls\ctrl_usersList.ascx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
@@ -93,6 +94,12 @@
     </Compile>
     <Compile Include="Controls\ctrl_register.ascx.designer.cs">
       <DependentUpon>ctrl_register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrl_usersList.ascx.cs">
+      <DependentUpon>ctrl_usersList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrl_usersList.ascx.designer.cs">
+      <DependentUpon>ctrl_usersList.ascx</DependentUpon>
     </Compile>
     <Compile Include="DAL\aspnet_Applications.cs">
       <DependentUpon>Model.tt</DependentUpon>
